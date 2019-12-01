@@ -8,7 +8,7 @@ def comb_cal(mass):
 
 if __name__ == "__main__":
     total_fuel = 0
-    f = open("./aventcal2019/inputday1.txt", "r")
+    f = open("./inputday1.txt", "r")
     filename = f.readlines()
     for line in filename:
         total_fuel += comb_cal(int(line))

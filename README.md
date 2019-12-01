@@ -1,2 +1,3 @@
 # Advent-of-code-2019
-Advent of Code 2019 challenge
+My solutions to Advent of Code 2019 challenge.
+site of the challenge: https://adventofcode.com/2019

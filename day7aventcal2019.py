@@ -40,13 +40,8 @@ def grav_asis_prog(arr, entrada, output, i=0):
             par1 = arr[i+1]
             resul = par1 if (arr[i] // 100 % 10) == 1 else arr[par1]
             i += 2
-            # return for the 1st part of the challenge
+            # return for the 2nd part of the challenge
             return resul, True, i
-            # print(resul)
-
-        # -------------------------------
-        # Extra 2nd part of the challenge
-        # --------------------------------
         # Jump-if-True
         elif arr[i] % 100 == 5:
             mod_1par = arr[i] // 100 % 10

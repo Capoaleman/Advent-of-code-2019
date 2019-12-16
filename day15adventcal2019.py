@@ -12,6 +12,7 @@ def clrscr():  # function to clear the console, something similar to clrscr() we
 
 
 def intercode_program(arr, i=0, rel_base=0, entry=0):
+    # For animation purpose only
     # sleep(0.08)
     while i <= len(arr):
         # Add
@@ -195,6 +196,7 @@ if __name__ == "__main__":
                 new_coor = (x+1, y)
             if output == 2:
                 mapa[new_coor] = "O"
+                # First part of the challenge
                 print(f"The oxigen system is {steps} away")
                 max_steps = steps
                 steps = 1
@@ -216,4 +218,5 @@ if __name__ == "__main__":
             x, y = new_coor
         # ACTIVATE TO SEE THE ANIMATION
         # get_paint(mapa)
+    # 2nd part of the challenge    
     print(f"Total of minutes to fill the map with oxigen: {max_steps}")

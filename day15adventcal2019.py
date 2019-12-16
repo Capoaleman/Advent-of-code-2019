@@ -198,6 +198,7 @@ if __name__ == "__main__":
                 mapa[new_coor] = "O"
                 # First part of the challenge
                 print(f"The oxigen system is {steps} away")
+                # Resets the steps and the map to begin with counting in the oxygen sys location
                 max_steps = steps
                 steps = 1
                 for items in mapa.keys():
